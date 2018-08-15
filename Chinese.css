@@ -1,0 +1,147 @@
+.c1 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+}
+
+.cb {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #000000;
+
+}
+
+.cb2 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: x-small;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+}
+
+.c2 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 14px;
+
+}
+
+.BT {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.wbt {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+/*下拉菜单样式*/
+
+*{margin:0;padding:0;border:1;}
+
+#div_center { width:600px; height:24px; margin-left: auto;margin-right:auto; margin-top:10px;}  /*定义总体宽度、高度；background:003399; 控制背景颜色,居中对齐*/
+
+#nav { line-height: 20px; list-style-type: none; margin-top:5px;}         /*控制一级菜单行高；上边距5px；*/
+
+#nav a { display: block; width: 90px; text-align:center; font-size:12px;} /*一级菜单链接总体样式：每个菜单的宽，居中对齐，文字大小*/
+
+#nav a:link  { color:#FFF; text-decoration:none;margin:0;}     /* 未访问的链接 */
+
+#nav a:visited  {color:#FFF;text-decoration:none;margin:0;}    /* 已访问的颜色 */
+
+#nav a:hover {
+
+	text-decoration:none;
+
+}                /* 鼠标在链接上 */
+
+#nav li {float: left;
+
+margin-left:0px;
+
+border-left-width: 1px; 
+
+ border-left-style: solid;
+
+ border-left-color:#FFFFFF; }
+
+                   /* 一级菜左对齐 */
+
+#nav li a:hover{
+
+}     /* 鼠标在一级菜单上改变其背景色 */
+
+#nav li ul {
+
+	line-height: 24px;
+
+	background:#B7C257;
+
+	list-style-type: none;
+
+	text-align:left;
+
+	left: -999em;
+
+	width:91px;
+
+	position: absolute;
+
+	border-width: 1px;
+
+	border-top-style: none;
+
+	border-right-style: none;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+	border-color: #003399;
+
+	padding:0px;
+
+	color: #C90;
+
+}             /*二级菜单总体样式：行高24px；背景颜色；外框宽度；相对位置；边框一个象素，上边没样式，左右下边实线，边框颜色#003399；内边距1个象素*/
+
+#nav li ul a{display:block; height:25px; width: 90px;text-align:center; margin-top:250px;}                 /* 二级菜单链接样式；背景宽度、左对齐，左缩进2 */
+
+#nav li ul a:link  {
+
+	color:#728740;
+
+	text-decoration:none;
+
+}                                   /* 未访问的链接 */
+
+#nav li ul a:visited  {
+
+	text-decoration:none;
+
+}                                 /* 已访问的链接 */
+
+#nav li.sfhover ul li.sfhover ul {left: 60px;}
+#nav li.sfhover ul li ul {left: -899em;}
+#nav li.sfhover ul {left: auto;}
+
+#content {clear: left;}
