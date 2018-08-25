@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 test merge
+=======
+Today is Friday. 
+>>>>>>> cf2974527ecfc9baf47726967d297d76bf6b23ef
