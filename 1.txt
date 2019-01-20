@@ -1,0 +1,70 @@
+﻿ <tr>
+          <td height="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1"><p class="cb"><font color="#FF0000">1/11-12</font> 家庭衝突糾紛講座</p></td>
+          <td width="13" height="21" rowspan="6"></td>
+        </tr>
+        <tr>
+          <td height="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1">时间: 8:00PM</td>
+        </tr>
+        <tr>
+          <td height="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1">地点<strong>:</strong> CCIC-TV</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1">5064 Franklin Drive</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1">Pleasanton, CA 94588</font>
+            </p></td>
+        </tr>
+        <tr>
+          <td height="20" colspan="2" class="cb">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="20" rowspan="20" class="cb">&nbsp;</td>
+          <td height="20" class="c1"><p class="cb"><font color="#FF0000">2/1-2</font>Homosexuality Workshop–Alan Shlemon </p></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">时间: 詳情見宣傳頁</td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">地点<strong>:</strong> CCIC-TV</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">5064 Franklin Drive</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">Pleasanton, CA 94588</font>
+            </p></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="20" class="c1"><span class="cb"><font color="#FF0000">2/22 </font>年會</span></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">时间: 8:00PM</td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">地点<strong>:</strong> CCIC-TV</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">5064 Franklin Drive</font></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">Pleasanton, CA 94588</font>
+            </p></td>
+        </tr>
+        <tr>
+          <td height="20" class="c1">&nbsp;</td>
+        </tr>
+              <tr>
+          <td height="20" class="c1">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="20" colspan="2" class="cb">&nbsp;</td>
+        </tr>
