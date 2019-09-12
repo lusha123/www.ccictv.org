@@ -1,0 +1,400 @@
+.c1 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+}
+
+.cb {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #000000;
+
+}
+
+.cb2 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: x-small;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+}
+
+.c2 {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+	font-size: 14px;
+
+}
+
+.BT {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+.wbt {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+/*下拉菜单样式*/
+
+*{margin:0;padding:0;border:1;}
+
+#div_center { width:600px; height:24px; margin-left: auto;margin-right:auto; margin-top:10px;}  /*定义总体宽度、高度；background:003399; 控制背景颜色,居中对齐*/
+
+#nav { line-height: 20px; list-style-type: none; margin-top:5px;}         /*控制一级菜单行高；上边距5px；*/
+
+#nav a { display: block; width: 90px; text-align:center; font-size:12px;} /*一级菜单链接总体样式：每个菜单的宽，居中对齐，文字大小*/
+
+#nav a:link  { color:#FFF; text-decoration:none;margin:0;}     /* 未访问的链接 */
+
+#nav a:visited  {color:#FFF;text-decoration:none;margin:0;}    /* 已访问的颜色 */
+
+#nav a:hover {
+
+	text-decoration:none;
+
+}                /* 鼠标在链接上 */
+
+#nav li {float: left;
+
+margin-left:0px;
+
+border-left-width: 1px; 
+
+ border-left-style: solid;
+
+ border-left-color:#FFFFFF; }
+
+                   /* 一级菜左对齐 */
+
+#nav li a:hover{
+
+}     /* 鼠标在一级菜单上改变其背景色 */
+
+#nav li ul {
+
+	line-height: 24px;
+
+	background:#B7C257;
+
+	list-style-type: none;
+
+	text-align:left;
+
+	left: -999em;
+
+	width:91px;
+
+	position: absolute;
+
+	border-width: 1px;
+
+	border-top-style: none;
+
+	border-right-style: none;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+	border-color: #003399;
+
+	padding:0px;
+
+	color: #C90;
+
+}             /*二级菜单总体样式：行高24px；背景颜色；外框宽度；相对位置；边框一个象素，上边没样式，左右下边实线，边框颜色#003399；内边距1个象素*/
+
+#nav li ul a{display:block; height:25px; width: 90px;text-align:center; margin-top:250px;}                 /* 二级菜单链接样式；背景宽度、左对齐，左缩进2 */
+
+#nav li ul a:link  {
+
+	color:#728740;
+
+	text-decoration:none;
+
+}                                   /* 未访问的链接 */
+
+#nav li ul a:visited  {
+
+	text-decoration:none;
+
+}                                 /* 已访问的链接 */
+
+#nav li.sfhover ul li.sfhover ul {left: 60px;}
+#nav li.sfhover ul li ul {left: -899em;}
+#nav li.sfhover ul {left: auto;}
+
+#content {clear: left;}
+
+#colorlib-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+#colorlib-aside {
+  padding-top: 3em;
+  padding-bottom: 0px;
+  float: left;
+  width: 210px;
+  height: 100%;
+  z-index: 1001;
+  background: #B7C257;
+  }
+  #colorlib-aside .author-img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  #colorlib-aside .position {
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px; }
+  #colorlib-aside #colorlib-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: .5em;
+    display: block;
+    width: 100%; }
+    #colorlib-aside #colorlib-logo a {
+      display: block;
+      text-align: center;
+      color: #000;
+      padding-right: .3em; }
+  #colorlib-aside #colorlib-main-menu {
+    display: block;
+    width: 100%; }
+    #colorlib-aside #colorlib-main-menu .collapse {
+      display: block !important; }
+    #colorlib-aside #colorlib-main-menu ul {
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+      @media screen and (max-width: 768px) {
+        #colorlib-aside #colorlib-main-menu ul {
+          margin: 0 0 2em 0; } }
+      #colorlib-aside #colorlib-main-menu ul li {
+        margin: 0 0 10px 0;
+        padding: 0;
+        list-style: none;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px; }
+        #colorlib-aside #colorlib-main-menu ul li a {
+          color: rgba(0, 0, 0, 0.7);
+          text-decoration: none;
+          padding: 10px 0;
+          font-family: "Arial", "Helvetica", "sans-serif";
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+          #colorlib-aside #colorlib-main-menu ul li a:hover {
+            text-decoration: none;
+            color: black; }
+            #colorlib-aside #colorlib-main-menu ul li a:hover:after {
+              visibility: visible;
+              -webkit-transform: scaleX(1);
+              -moz-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+              -o-transform: scaleX(1);
+              transform: scaleX(1); }
+        #colorlib-aside #colorlib-main-menu ul li.active a {
+          color: #2c98f0; }
+          #colorlib-aside #colorlib-main-menu ul li.active a:after {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            -moz-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            transform: scaleX(1); }
+
+.container-wrap {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+#colorlib-main {
+  width: calc(100% - 210px);
+  float: right;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  @media screen and (max-width: 768px) {
+    #colorlib-main {
+      width: 100%;
+      padding: 0 1em; } }
+
+.colorlib-narrow-content {
+  padding: 0 2.5em; }
+  @media screen and (max-width: 768px) {
+    .colorlib-narrow-content {
+      padding: 0; } }
+
+
+.colorlib-experience,
+.colorlib-skills,
+.colorlib-education,
+.colorlib-blog,
+.colorlib-work,
+.colorlib-about,
+.colorlib-services,
+.colorlib-contact {
+  padding-top: 4em;
+  padding-bottom: 9em;
+  clear: both;
+  width: 100%;
+  display: block; }
+  @media screen and (max-width: 768px) {
+    .colorlib-experience,
+    .colorlib-skills,
+    .colorlib-education,
+    .colorlib-blog,
+    .colorlib-work,
+    .colorlib-about,
+    .colorlib-services,
+    .colorlib-contact {
+      padding-top: 5em;
+      padding-bottom: 8em; } }      
+
+.author-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.colorlib-heading {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative; }
+  .colorlib-heading span {
+    display: block; }
+  @media screen and (max-width: 768px) {
+    .colorlib-heading {
+      margin-bottom: 3em; } }
+
+.heading-meta {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px; }
+
+.about-img {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 30px; }
+
+.about-desc h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500; }
+
+.blog-entry {
+  width: 100%;
+  float: left;
+  background: #fff;
+  margin-bottom: 3em; }
+  @media screen and (max-width: 768px) {
+    .blog-entry {
+      margin-bottom: 3em; } }
+  .blog-entry .blog-img {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 25px; }
+    .blog-entry .blog-img img {
+      position: relative;
+      max-width: 100%;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+  .blog-entry .desc h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: auto;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Arial", "Helvetica", "sans-serif"; }
+    .blog-entry .desc h3 a {
+      color: #000;
+      text-decoration: none; }
+  .blog-entry .desc span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400; }
+    .blog-entry .desc span small i {
+      color: #999999; }
+  .blog-entry .desc .lead {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000; }
+  .blog-entry:hover .blog-img img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+.row-bottom-padded-lg {
+  padding-bottom: 7em; }
+  @media screen and (max-width: 768px) {
+    .row-bottom-padded-lg {
+      padding-bottom: 1em; } }
+
+.row-bottom-padded-md {
+  padding-bottom: 3em; }
+  @media screen and (max-width: 768px) {
+    .row-bottom-padded-md {
+      padding-bottom: 1em; } }
+
+.row-bottom-padded-sm {
+  padding-bottom: 1em; }
+  @media screen and (max-width: 768px) {
+    .row-bottom-padded-sm {
+      padding-bottom: 1em; } }
+
+.row-pt-md {
+  padding-top: 3em; }
