@@ -81,16 +81,18 @@ myIncludeHtmls['header.html'] = '\
 <UL id=nav>\
 <LI style="MARGIN-LEFT: 50px"><A href="/index.html" title="Chinese Church in Christ - Tri Valley">首 页</A></LI>\
 \
-<LI><A href="/ccictv-introduction.html" title="三谷基督徒會堂 會堂簡介 Chinese Church in Christ Tri-Valley Church Introduction">會堂簡介</A>\
+<LI><A href="#">三谷會堂</A>\
   <UL>\
+  <LI><A href="/ccictv-introduction.html" title="三谷基督徒會堂 會堂簡介 Chinese Church in Christ Tri-Valley Church Introduction">會堂簡介</A></LI>\
   <LI><A href="/ccictv-intro/01_belief.html" title="三谷基督徒會堂 信仰 Chinese Church in Christ Tri-Valley Belief">信仰與使命</A></LI>\
     <LI><A href="/ccictv-intro/02_leaders.html" title="ccictv-introduction_leaders">教牧同工</A></LI>\
     <LI><A href="/ccictv-intro/04_newsletters.html" title="三谷基督徒會堂 三谷恩泉 Chinese Church in Christ Church Newsletters">教會簡訊</A></LI>\
 </UL>\
 </LI>\
  \
-<LI><A href="/ccictv-sunday.html" title="三谷基督徒會堂 主日聚會  Chinese Church in Christ Sunday">主日聚會</A>\
+<LI><A href="#">主日聚會</A>\
 <UL>\
+<LI><A href="/ccictv-sunday.html" title="ccictv-churchlife_location">主日簡介</A></LI>\
 <LI><A href="/ccictv-sunday/01_sermons/sermon.html" title="ccictv-churchlife_sermons">主日信息</A></LI>\
 <LI><A href="/ccictv-sunday/02_sundayschool.html" title="ccictv-churchlife_sundayschool">成人主日學</A></LI></UL></LI>\
 \
