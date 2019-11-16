@@ -1,4 +1,4 @@
-function __RP_Callback_Helper(str, strCallbackEvent, splitSize, func){var event = null;if (strCallbackEvent){event = document.createEvent('Events');event.initEvent(strCallbackEvent, true, true);}if (str && str.length > 0){var splitList = str.split('|');var strCompare = str;if (splitList.length == splitSize)strCompare = splitList[splitSize-1];var pluginList = document.plugins;for (var count = 0; count < pluginList.length; count++){var sSrc = '';if (pluginList[count] && pluginList[count].src)sSrc = pluginList[count].src;if (strCompare.length >= sSrc.length){if (strCompare.indexOf(sSrc) != -1){func(str, count, pluginList, splitList);break;}}}}if (strCallbackEvent)document.body.dispatchEvent(event);}function __RP_Coord_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Coord_Callback = str;pluginList[index].__RP_Coord_Callback_Left = splitList[0];pluginList[index].__RP_Coord_Callback_Top = splitList[1];pluginList[index].__RP_Coord_Callback_Right = splitList[2];pluginList[index].__RP_Coord_Callback_Bottom = splitList[3];};__RP_Callback_Helper(str, 'rp-js-coord-callback', 5, func);}function __RP_Url_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Url_Callback = str;pluginList[index].__RP_Url_Callback_Vid = splitList[0];pluginList[index].__RP_Url_Callback_Parent = splitList[1];};__RP_Callback_Helper(str, 'rp-js-url-callback', 3, func);}function __RP_TotalBytes_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_TotalBytes_Callback = str;pluginList[index].__RP_TotalBytes_Callback_Bytes = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}function __RP_Connection_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Connection_Callback = str;pluginList[index].__RP_Connection_Callback_Url = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}
+﻿function __RP_Callback_Helper(str, strCallbackEvent, splitSize, func){var event = null;if (strCallbackEvent){event = document.createEvent('Events');event.initEvent(strCallbackEvent, true, true);}if (str && str.length > 0){var splitList = str.split('|');var strCompare = str;if (splitList.length == splitSize)strCompare = splitList[splitSize-1];var pluginList = document.plugins;for (var count = 0; count < pluginList.length; count++){var sSrc = '';if (pluginList[count] && pluginList[count].src)sSrc = pluginList[count].src;if (strCompare.length >= sSrc.length){if (strCompare.indexOf(sSrc) != -1){func(str, count, pluginList, splitList);break;}}}}if (strCallbackEvent)document.body.dispatchEvent(event);}function __RP_Coord_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Coord_Callback = str;pluginList[index].__RP_Coord_Callback_Left = splitList[0];pluginList[index].__RP_Coord_Callback_Top = splitList[1];pluginList[index].__RP_Coord_Callback_Right = splitList[2];pluginList[index].__RP_Coord_Callback_Bottom = splitList[3];};__RP_Callback_Helper(str, 'rp-js-coord-callback', 5, func);}function __RP_Url_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Url_Callback = str;pluginList[index].__RP_Url_Callback_Vid = splitList[0];pluginList[index].__RP_Url_Callback_Parent = splitList[1];};__RP_Callback_Helper(str, 'rp-js-url-callback', 3, func);}function __RP_TotalBytes_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_TotalBytes_Callback = str;pluginList[index].__RP_TotalBytes_Callback_Bytes = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}function __RP_Connection_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Connection_Callback = str;pluginList[index].__RP_Connection_Callback_Url = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}
 
 function menuFix() {
 
@@ -94,7 +94,9 @@ myIncludeHtmls['header.html'] = '\
 <UL>\
 <LI><A href="/ccictv-sunday.html" title="ccictv-churchlife_location">主日簡介</A></LI>\
 <LI><A href="/ccictv-sunday/01_sermons/sermon.html" title="ccictv-churchlife_sermons">主日信息</A></LI>\
-<LI><A href="/ccictv-sunday/02_sundayschool.html" title="ccictv-churchlife_sundayschool">成人主日學</A></LI></UL></LI>\
+<LI><A href="/ccictv-sunday/02_sundayschool.html" title="ccictv-churchlife_sundayschool">成人主日學</A></LI>\
+</UL>\
+</LI>\
 \
 <LI><A href="/ccictv-homegroups.html" title="三谷基督徒會堂 家庭團契 Chinese Church in Christ Homegroups">團契小組</A></LI>\
 \
@@ -108,17 +110,22 @@ myIncludeHtmls['header.html'] = '\
 \
 <LI><A href="#">教會事工</A>\
 <UL>\
-  <LI><A href="/ccictv-ministry/01_youth.html" title="ccictv-youth_impact">Youth Ministry</A></LI>\
-  <LI><A href="#">兒童事工</A>\
-     <UL>\
-                <LI><A href="/ccictv-ministry/02_children/SundayService.html" title="ccictv-children_SundayService">兒童主日</A></LI>\
-                <LI><A href="/ccictv-ministry/02_children/Awana.html" title="cictv-children_awana">Awana</A></LI>\
+<LI><A href="/ccictv-ministry/01_youth.html" title="ccictv-youth_impact">Youth Ministry</A></LI>\
+<LI><A href="#">兒童事工</A>\
+    <UL>\
+    <LI><A href="/ccictv-ministry/02_children/SundayService.html" title="ccictv-children_SundayService">兒童主日</A></LI>\
+    <LI><A href="/ccictv-ministry/02_children/Awana.html" title="cictv-children_awana">Awana</A></LI>\
     </UL>\
-	</LI>\
-  <LI><A href="/ccictv-ministry/03_mission.html" title="ccictv-mission">宣教与福音</A>\
-  <UL>\
-                <LI><A href="/ccictv-ministry/03_mission/Mission_Germany.html" title="Mission_Germany">德東宣教工廠</A></LI>\
-</UL>\
+</LI>\
+<LI><A href="/ccictv-ministry/03_mission.html" title="ccictv-mission">宣教与福音</A>\
+     <UL>\
+     <LI><A href="/ccictv-ministry/03_mission/Mission_Germany.html" title="Mission_Germany">德東宣教工場</A></LI>\
+     <LI><A href="#"> 美中宣教工場 </A></LI>\
+     <LI><A href="#"> 南非宣教工場 </A></LI>\
+     <LI><A href="#"> 泰北宣教工場 </A></LI>\
+     <LI><A href="#"> 中國宣教工場 </A></LI>\
+     <LI><A href="/ccictv-ministry/01_youth/shorttermmission.html" title="Mission_Mexico">墨西哥Youth短宣</A></LI>\
+     </UL>\
 </LI>\
 </UL>\
 </LI>\
