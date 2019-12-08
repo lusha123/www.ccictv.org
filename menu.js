@@ -122,7 +122,7 @@ myIncludeHtmls['header.html'] = '\
      <LI><A href="/ccictv-ministry/03_mission/Mission_Germany.html" title="Mission_Germany">德東宣教工場</A></LI>\
      <LI><A href="#"> 美中宣教工場 </A></LI>\
      <LI><A href="#"> 南非宣教工場 </A></LI>\
-     <LI><A href="#"> 泰北宣教工場 </A></LI>\
+     <LI><A href="/ccictv-ministry/03_mission/Mission_Thailand.html" title="Mission_Thailand"> 泰北宣教工場 </A></LI>\
      <LI><A href="#"> 中國宣教工場 </A></LI>\
      <LI><A href="/ccictv-ministry/01_youth/shorttermmission.html" title="Mission_Mexico">墨西哥Youth短宣</A></LI>\
      </UL>\
