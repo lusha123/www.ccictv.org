@@ -153,7 +153,7 @@ myIncludeHtmls['footer.html'] = '\
 \
  <div style="clear:both;background-image: url(images/COD_FooterBg.gif); background-repeat: no-repeat; background-position: left top;margin-top:15px">\
 \
-    <p><span class="c1">©Copyright 2019, Chinese Church in Christ - Tri Valley,\
+    <p><span class="c1">©Copyright 2020, Chinese Church in Christ - Tri Valley,\
 \
       Pleasanton, California, USA. All rights reserved. </span><br>\
 \
