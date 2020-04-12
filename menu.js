@@ -50,10 +50,10 @@ myIncludeHtmls['header.html'] = '\
 \
         <td width="18%" height="90" align="right" valign="bottom"><div>\
 \
-          <p><span class="c1">5064 Franklin Drive</span> <span class="c1"></span></p>\
-		   <p><span class="c1">Pleasanton, CA 94588 </span> <span class="c1"></span></p>\
-\         <p><span class="c1">(925) 467-1580 </span></p>\
-          <p><span class="c1"><a href="mailto:ccictv@yahoo.com">ccictv@ccictv.org</a></span></p>\
+          <p class="nospace" ><span class="c1">5064 Franklin Drive</span> <span class="c1"></span></p>\
+	  <p class="nospace"><span class="c1">Pleasanton, CA 94588 </span> <span class="c1"></span></p>\
+\         <p class="nospace"><span class="c1">(925) 467-1580 </span></p>\
+          <p class="nospace"><span class="c1"><a href="mailto:ccictv@yahoo.com">ccictv@ccictv.org</a></span></p>\
 \
          </div></td>\
 \
