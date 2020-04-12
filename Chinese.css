@@ -124,7 +124,7 @@ border-left-width: 1px;
 
 }             /*二级菜单总体样式：行高24px；背景颜色；外框宽度；相对位置；边框一个象素，上边没样式，左右下边实线，边框颜色#003399；内边距1个象素*/
 
-#nav li ul a{display:block; height:25px; width: 90px;text-align:center; margin-top:250px;}                 /* 二级菜单链接样式；背景宽度、左对齐，左缩进2 */
+#nav li ul a{display:block; height:25px; width: 90px;text-align:center;}                 /* 二级菜单链接样式；背景宽度、左对齐，左缩进2 */
 
 #nav li ul a:link  {
 
