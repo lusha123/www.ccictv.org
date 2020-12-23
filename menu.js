@@ -143,7 +143,7 @@ myIncludeHtmls['header.html'] = '\
   <LI><A href="#">得救見證</A></LI>\
   <LI><A href="#">靈修分享</A></LI>\
   <LI><A href="#">團契分享</A></LI>\
-  <LI><A href="#">特別分享</A></LI>\
+  <LI><A href="/ccictv_testimony/06_special_testimony.html" title="特別分享">特別分享</A></LI>\
 </UL></LI>\
 \
 <LI><A href="" title="">&nbsp;</A></LI>\
