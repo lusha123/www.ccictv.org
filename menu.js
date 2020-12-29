@@ -77,16 +77,15 @@ myIncludeHtmls['header.html'] = '\
 \
         \
 \
- <div style="float:right;">\
+ <div style="float:center;">\
 <UL id=nav>\
-<LI style="MARGIN-LEFT: 50px"><A href="/index.html" title="Chinese Church in Christ - Tri Valley">首 页</A></LI>\
+<LI style="MARGIN-LEFT: 100px"><A href="/index.html" title="Chinese Church in Christ - Tri Valley">首 页</A></LI>\
 \
 <LI><A href="#">三谷會堂</A>\
   <UL>\
   <LI><A href="/ccictv-introduction.html" title="三谷基督徒會堂 會堂簡介 Chinese Church in Christ Tri-Valley Church Introduction">會堂簡介</A></LI>\
   <LI><A href="/ccictv-intro/01_belief.html" title="三谷基督徒會堂 信仰 Chinese Church in Christ Tri-Valley Belief">信仰與使命</A></LI>\
     <LI><A href="/ccictv-intro/02_leaders.html" title="ccictv-introduction_leaders">教牧同工</A></LI>\
-    <LI><A href="/ccictv-intro/04_newsletters.html" title="三谷基督徒會堂 三谷恩泉 Chinese Church in Christ Church Newsletters">教會簡訊</A></LI>\
 </UL>\
 </LI>\
  \
@@ -137,6 +136,16 @@ myIncludeHtmls['header.html'] = '\
   <LI><A href="/ccictv_activities/03_specialtopics.html" title="三谷基督徒會堂 專題講座 Chinese Church in Christ Church Special Sermons">特別聚會</A></LI>\
  </UL></LI>\
  \
+<LI><A href="#">見證分享</A>\
+<UL>\
+  <LI><A href="/ccictv_testimony/01_newsletters.html" title="ccictv-newsletters">三谷恩泉</A></LI>\
+  <LI><A href="/ccictv_testimony/02_mission_testimony.html" title="短宣見證">短宣見證</A></LI>\
+  <LI><A href="#">得救見證</A></LI>\
+  <LI><A href="#">靈修分享</A></LI>\
+  <LI><A href="#">團契分享</A></LI>\
+  <LI><A href="/ccictv_testimony/06_special_testimony.html" title="特別分享">特別分享</A></LI>\
+</UL></LI>\
+\
 <LI><A href="" title="">&nbsp;</A></LI>\
 </UL>\
 \
