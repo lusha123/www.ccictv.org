@@ -142,7 +142,7 @@ myIncludeHtmls['header.html'] = '\
   <LI><A href="/ccictv_testimony/02_mission_testimony.html" title="短宣見證">短宣見證</A></LI>\
   <LI><A href="#">得救見證</A></LI>\
   <LI><A href="#">靈修分享</A></LI>\
-  <LI><A href="#">團契分享</A></LI>\
+  <LI><A href="/ccictv_testimony/05_fellowship.html" title="團契分享">團契分享</A></LI>\
   <LI><A href="/ccictv_testimony/06_special_testimony.html" title="特別分享">特別分享</A></LI>\
 </UL></LI>\
 \
@@ -162,7 +162,7 @@ myIncludeHtmls['footer.html'] = '\
 \
  <div style="clear:both;background-image: url(images/COD_FooterBg.gif); background-repeat: no-repeat; background-position: left top;margin-top:15px">\
 \
-    <p><span class="c1">©Copyright 2020, Chinese Church in Christ - Tri Valley,\
+    <p><span class="c1">©Copyright 2021, Chinese Church in Christ - Tri Valley,\
 \
       Pleasanton, California, USA. All rights reserved. </span><br>\
 \
