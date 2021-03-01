@@ -136,11 +136,11 @@ myIncludeHtmls['header.html'] = '\
   <LI><A href="/ccictv_activities/03_specialtopics.html" title="三谷基督徒會堂 專題講座 Chinese Church in Christ Church Special Sermons">特別聚會</A></LI>\
  </UL></LI>\
  \
-<LI><A href="#">見證分享</A>\
+<LI><A href="/ccictv_testimony/ccictv-testimony.html" title="三谷基督徒會堂 見證分享 Chinese Church in Christ Testimony">見證分享</A>\
 <UL>\
   <LI><A href="/ccictv_testimony/01_newsletters.html" title="ccictv-newsletters">三谷恩泉</A></LI>\
   <LI><A href="/ccictv_testimony/02_mission_testimony.html" title="短宣見證">短宣見證</A></LI>\
-  <LI><A href="#">得救見證</A></LI>\
+  <LI><A href="/ccictv_testimony/03_saved_testimony.html" title="得救見證">得救見證</A></LI>\
   <LI><A href="#">靈修分享</A></LI>\
   <LI><A href="/ccictv_testimony/05_fellowship.html" title="團契分享">團契分享</A></LI>\
   <LI><A href="/ccictv_testimony/06_special_testimony.html" title="特別分享">特別分享</A></LI>\
